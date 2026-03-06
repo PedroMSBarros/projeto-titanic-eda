@@ -1,0 +1,29 @@
+Aqui está o texto reescrito com todas as acentuações corretas:
+
+ANÁLISE EXPLORATÓRIA DE DADOS - TITANIC
+
+DESCRIÇÃO DO PROJETO
+
+Este repositório contém minha primeira análise exploratória de dados. O objetivo foi investigar a base de dados dos passageiros do Titanic para entender quais fatores influenciaram as taxas de sobrevivência, unindo uma visão estratégica de administração com a execução técnica em computação.
+
+FERRAMENTAS UTILIZADAS
+
+Linguagem: Python
+Manipulação de Dados: Pandas
+Visualização: Seaborn e Matplotlib
+Ambiente: VS Code e Jupyter Notebook
+
+PRINCIPAIS DESCOBERTAS E INSIGHTS
+
+Fator Gênero: A análise visual comprovou que a taxa de sobrevivência feminina foi significativamente maior que a masculina, validando a regra marítima histórica.
+
+Fator Socioeconômico: Passageiros da terceira classe representaram o maior volume de perdas. O mapa de calor confirmou uma correlação de -0.55 entre a classe e o valor da tarifa, provando que o poder aquisitivo impactou as chances de sobrevivência.
+
+Limpeza de Dados: O arquivo original continha 177 registros nulos na coluna de idades. Para manter a integridade da análise sem descartar potenciais clientes ou passageiros, realizei a imputação desses valores utilizando a mediana estatística do grupo.
+
+COMO EXECUTAR LOCALMENTE
+
+Faça o download ou clone este repositório.
+Abra a pasta no VS Code.
+Instale as bibliotecas necessárias digitando no terminal: pip install pandas seaborn matplotlib
+Execute o arquivo exploracao_dados.ipynb.
